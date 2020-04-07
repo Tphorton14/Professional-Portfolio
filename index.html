@@ -81,7 +81,7 @@
       <h1 class="card-title" id="about">About Me</h1>
 
       <p class="card-text" id="descript">
-        Self-motivated Full Stack Web Developer, seeking a full-time position as a Web Developer. Flexible and collaborative team player with an eye for detail and aesthetics with a creative and solutions-driven mindset. 
+        I am a self-motivated Full Stack Web Developer, seeking a full-time position as a Web Developer. Flexible and collaborative team player with an eye for detail and aesthetics with a creative and solutions-driven mindset. 
         Seeking opportunities in development, leadership, and to contribute to a positive culture.
       </p>
 
@@ -102,7 +102,7 @@
       <h2 class="card-title mt-5" id="about">Technical Skills</h2>
       <div class="skills row " id="technical-skill">  <div>
         Node.Js | Express | JavaScript | jQuery | React.js | React | GIT | GitHub | MongoDB | 
-        MySQL | Firebase | Handlebars | HTML | CSS | Sass | Bootstrap | Media Queries | APIs | Heroku | Command Line | Adobe Creative Suite – Photoshop, Publisher, Illustrator 
+        MySQL | Firebase | Handlebars | HTML | CSS | Sass | Bootstrap | Media Queries | APIs | C# | .NET | Heroku | Command Line | Adobe Creative Suite – Photoshop, Publisher, Illustrator 
     </div>
       <div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div><div class="technical-skill-div col d-flex flex-column align-items-center"></div></div>
     </div>
@@ -111,45 +111,54 @@
 <hr>
 
 <!-- Portfolio -->
-<section class="content-section" id="portfolio overlay" >
-  <div class="container">
+<section class="content-section card" id="portfolio" >
+  <div class="container" id="port">
     <div class="content-section-heading text-center">
-      <h3 class="text-secondary mb-0">Portfolio</h3>
-      <h2 class="mb-5">Recent Projects</h2>
+      <h2 class="mb-5" id="project-title">Recent Projects</h2>
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Stationary</h2>
-              <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-        </a>
+        <h2 class="title">EnvironmAtlanta</h2>
+        <p class="mb-0 descript">An interactive site to connect conscientious users as they strive to commit to eco-friendly practices in order to better the environment of their communities and around the world</p>
+  
+        <img class="img-fluid" src="images/projectTwo.JPG" alt="">
+        <div class="row links">
+        <a class="portfolio-item col-sm-6" href="https://github.com/Tphorton14/EnvironmAtlanta">            
+          <p class="mb-0">Github Repository</p>
+    </a>
+    <a class="portfolio-item col-sm-6" href="https://gentle-badlands-39107.herokuapp.com/">            
+      <p class="mb-0">Website</p>
+  </a>
+</div>
       </div>
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Ice Cream</h2>
-              <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-        </a>
+      <div class="col-lg-6" id="project-one">
+        <h2 class="title">Intoxicating Mood</h2>
+        <p class="mb-0 descript">Front-end web application designed to recommend cocktail choices based on user submitted picture</p>
+  
+        <img class="img-fluid" id="project-one-photo" src="images/projetOne.JPG" alt="">
+        <div class= "row links">
+        <a class="portfolio-item col-sm-6" href="https://github.com/Tphorton14/IntoxicatingMood">            
+          <p class="mb-0">Github Repository</p>
+    </a>
+    <a class="portfolio-item col-sm-6" href="https://tphorton14.github.io/IntoxicatingMood/">            
+      <p class="mb-0">Website</p>
+  </a>
+</div>
       </div>
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Strawberries</h2>
-              <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-        </a>
+      <div class="col-lg-6" id="second-line">
+        <h2 class="title" id=>Articles of</h2>
+          <h2 class="title">Confeder-scraptions</h2>
+        <p class="mb-0 descript">Users are able to leave comments on the articles displayed and revisit them later. </p>
+  
+        <img class="img-fluid" src="images/articles.JPG" alt="">
+        <div class= "row links">
+        <a class="portfolio-item col-sm-6" href="https://github.com/Tphorton14/Articles-of-Confeder-scraptions">            
+          <p class="mb-0">Github Repository</p>
+    </a>
+    <a class="portfolio-item col-sm-6" href="https://warm-journey-44123.herokuapp.com/">            
+      <p class="mb-0">Website</p>
+  </a>
+</div>
       </div>
       <div class="col-lg-6">
         <a class="portfolio-item" href="#">
@@ -164,6 +173,19 @@
       </div>
     </div>
   </div>
+  <div class="col-lg-6">
+    <a class="portfolio-item" href="#">
+      <span class="caption">
+        <span class="caption-content">
+          <h2>Workspace</h2>
+          <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+        </span>
+      </span>
+      <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+    </a>
+  </div>
+</div>
+</div>
 </section>
 
 
