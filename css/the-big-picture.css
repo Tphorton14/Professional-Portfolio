@@ -68,7 +68,8 @@ i {
 
 
 hr {
-  margin-top: 200px;;
+  margin-top: 200px;
+  color: white;
 }
 
 /* About Me Styling */
@@ -127,7 +128,7 @@ img {
 #project-title {
   font-size: 50px;
   color: white;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 /* Project Styling */
@@ -160,6 +161,15 @@ img {
 
 #second-line{
   padding-top: 10px;
+}
+
+#clicky-photo {
+  height: 242px;
+  padding-top: -10px;
+}
+
+#clicky{
+  padding: 10px 0px 0px 30px;
 }
 
 /* Footer styling */
