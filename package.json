@@ -1,11 +1,11 @@
 {
     "title": "The Big Picture",
-    "name": "startbootstrap-the-big-picture",
+    "name": "taylor-horton-portfolio",
     "version": "4.2.1",
+    "main": "server.js",
     "scripts": {
         "start": "node server.js"
     },
-    
     "repository": {
         "type": "git",
         "url": "https://github.com/Tphorton14/Professional-Portfolio"
@@ -13,7 +13,8 @@
     "dependencies": {
         "bootstrap": "4.3.1",
         "express": "^4.17.1",
-        "jquery": "3.4.1"
+        "jquery": "3.4.1",
+        "path": "^0.12.7"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
