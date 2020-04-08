@@ -223,7 +223,9 @@ footer.footer .social-link:hover {
   100% { padding-top: 2em; }
 }
 
-
+[class*="col-"] {
+  width: 100%;
+}
 
 @media only screen and (max-width: 980px) {
 	.rows {
@@ -237,8 +239,3 @@ footer.footer .social-link:hover {
 	}
 }
 
-@media only screen and (max-width: 768px) {
-	.contact {
-		width: 90%;
-	}
-}
