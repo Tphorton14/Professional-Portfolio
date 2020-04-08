@@ -3,30 +3,12 @@
     "name": "startbootstrap-the-big-picture",
     "version": "4.2.1",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node server.js"
     },
-    "description": "A full page image background with fixed bottom navigation HTML template built with Bootstrap",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/the-big-picture",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-the-big-picture/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-the-big-picture.git"
+        "url": "https://github.com/Tphorton14/Professional-Portfolio"
     },
     "dependencies": {
         "bootstrap": "4.3.1",
