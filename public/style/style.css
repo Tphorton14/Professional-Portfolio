@@ -176,6 +176,7 @@ footer.footer {
   padding-bottom: 3rem;
   margin-top: 20rem;
   background: black;
+  
 }
 
 footer.footer .social-link {
@@ -223,33 +224,41 @@ footer.footer .social-link:hover {
   100% { padding-top: 2em; }
 }
 
-[class*="col-"] {
-  width: 100%;
-}
 
-@media only screen and (max-width: 600px) { 
+
+/* [class*="col-"] {
+  width: 100%;
+} */
+
+/* @media only screen and (max-width: 600px) { 
   body
   .myNav
-  .footer {
+  .footer
+  .boxs {
     background-color: lightblue;
+    float: none;
+    width: 100%;
   }
   
 
-}
+} */
 
-@media only screen and (max-width: 980px) {
-  .rows 
-  .myNav
+/* @media only screen and (max-width: 600px) {
+   
+  .navbar
   .footer{
-		width: 90%;
+    width: 100%;
+    float: none;
 	}
-}
+} */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .rowCol
   .myNav
+  .boxs
   .footer {
-		width: 90%;
+    width: 100%;
+    float: none;
 	}
-}
+} */
 
